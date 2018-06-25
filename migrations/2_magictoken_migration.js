@@ -1,5 +1,6 @@
 var MagicToken = artifacts.require("MagicToken");
 var MagicEightBall = artifacts.require("MagicEightBall");
+var Controlled = artifacts.require("Controlled");
 
 module.exports = function(deployer) {
 	deployer.deploy(Controlled);
